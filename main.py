@@ -43,7 +43,7 @@ for i in range(100):
             module_1_moves.append(module_1_move)
             module_2_moves.append(module_2_move)
 
-            print(f"Game {i+1}: {module_1_name} move: {module_1_move}, {module_2_name} move: {module_2_move}")
+            # print(f"Game {i+1}: {module_1_name} move: {module_1_move}, {module_2_name} move: {module_2_move}")
 
             # Assign points based on the conditions
             if not module_1_move and not module_2_move:
